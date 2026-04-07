@@ -10,7 +10,7 @@ export class ChromaRouter {
     router = Router();
     chromaClient = new ChromaClient();
     upload = multer({ storage: multer.memoryStorage() });
-    genAI = new GoogleGenAI({apiKey: 'AIzaSyAL1TcVpjUZi3dPHFDQ7DTSa-pAcQAwWeU'});
+    genAI = new GoogleGenAI({apiKey: '########'});
 
     constructor() {
         this.intializeRouter();
